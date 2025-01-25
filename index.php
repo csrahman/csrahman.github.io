@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Md Habibur Rahman: Expert in PHP, Laravel, HTML, CSS, JavaScript. Enthusiast in security & privacy research, machine learning and deep learning. Skilled teacher, content creator valuable asset for excellence.">
+  <meta name="keywords"
+    content="Md Habibur Rahman, Research Enthusiast, Security and Privacy, Web Developer, PHP, Laravel, HTML, CSS, JavaScript, Machine Learning, Deep Learning, Teacher, Content Creator, educator," />
+  <meta name="author" content="Md Habibur Rahman">
+  <meta name="generator" content="Hugo 0.84.0">
+
+  <meta name="docsearch:language" content="en">
+  <meta name="docsearch:version" content="5.0">
+
+  <meta property="og:title" content="Md Habibur Rahman" />
+  <meta property="og:locale" content="en_US" />
+  <link rel="canonical" href="https://csrahman.github.io/" />
+  <meta property="og:url" content="https://csrahman.github.io/" />
+  <meta property="og:site_name" content="Md Habibur Rahman" />
+  <meta property="og:type" content="website" />
+
+  <title>Md Habibur Rahman</title>
+
+  <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+
+  <!-- third party files  -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- main css files  -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- responsive files -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-md navbar-dark bd-navbar sticky-top" style="padding-top: 0; padding-bottom: 0;">
+    <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+
+      <div class="collapse navbar-collapse" id="bdNavbar">
+        <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
+          <li class="nav-item col-6 col-md-auto">
+            <a class="nav-link px-2 fst-italic" href="mailto: mhrahman.cs@gmail.com"><i class="fa-solid fa-envelope"></i>
+              mhrahman.cs@gmail.com</a>
+          </li>
+          <li class="nav-item col-6 col-md-auto">
+            <a class="nav-link px-2 fst-italic" href="#"><i class="fa-solid fa-phone"></i> +880-1517-024796</a>
+          </li>
+        </ul>
+
+        <hr class="d-md-none text-white-50">
+
+        <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+          <li class="nav-item col-6 col-md-auto">
+            <a class="nav-link px-1" href="https://www.facebook.com/mhr70/" target="_blank" rel="noopener">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item col-6 col-md-auto">
+            <a class="nav-link px-3" href="https://www.linkedin.com/in/rahman-habibur/" target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+
+        <a class="btn btn-sm btn-bd-download d-lg-inline-block fst-italic font-monospace" href="#">Schedule Meeting</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- body start here  -->
+  <div class="container-xxl my-md-5 bd-layout">
+    <aside class="bd-sidebar">
+      <nav class="collapse bd-links" id="bd-docs-nav" aria-label="">
+        <ul class="list-unstyled mb-0 py-3 pt-md-1">
+          <li class="mb-1">
+            <div class="text-center">
+              <img src="./assets/img/profile.jpg" style="height: 200px;width: 200px;"
+                class="img-thumbnail rounded-circle mx-auto d-block" alt="Md Habibur Rahman">
+              <h1 class="h6 mt-3 fw-bolder">MD HABIBUR RAHMAN</h1>
+            </div>
+          <li class="my-3 mx-4 border-top"></li>
+          <div>
+            <p class="h6 text-center text-break">Computer Systems & Security research
+              enthusiast | Prospective Graduate Student</p>
+          </div>
+          <!--<li class="my-3 mx-4 border-top"></li>
+           <li class="mb-1">
+            <div class="collapse show" id="utilities-collapse" style="#">
+              <ul class="list-unstyled fw-normal pb-1 small">
+                <li><i class="fa-brands fa-github"></i><a href="#">GitHub</a></li>
+                <li><i class="fa-brands fa-google"></i><a href="#">Google Scholar</a></li>
+                <li><i class="fa-brands fa-orcid"></i><a href="#" class="#">ORCID</a></li>
+
+              </ul>
+            </div>
+          </li>
+          <li class="my-3 mx-4 border-top"></li>
+          <div>
+            <p class="h6"><a href="#">&copy; Md Habibur Rahman</script></a></p>
+          </div> -->
+        </ul>
+      </nav>
+
+    </aside>
+
+    <main class="bd-main order-1">
+
+      <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+        <strong class="d-block h6 my-2 pb-2 border-bottom"><i class="fa-regular fa-file-lines"></i> On this
+          page</strong>
+        <nav id="TableOfContents">
+          <ul>
+            <li>
+              <a href="#introduction"><i class="fa-solid fa-arrow-right-long"></i> Introduction</a>
+              <ul>
+                <li><a href="#research_interest"><i class="fa-solid fa-arrow-right-long"></i> Research Interests</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#latest_news"><i class="fa-solid fa-arrow-right-long"></i> Latest News</a></li>
+            <li><a href="#publications"><i class="fa-solid fa-arrow-right-long"></i> Publications</a></li>
+            <li>
+              <a href="#experiences"><i class="fa-solid fa-arrow-right-long"></i> Experiences</a>
+              <ul>
+                <li><a href="#education"><i class="fa-solid fa-arrow-right-long"></i> Educational Background</a></li>
+                <li><a href="#research"><i class="fa-solid fa-arrow-right-long"></i> Research Experience</a></li>
+                <li><a href="#services"><i class="fa-solid fa-arrow-right-long"></i> Services</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#teaching"><i class="fa-solid fa-arrow-right-long"></i> Teaching</a>
+              <ul>
+                <li><a href="#courses"><i class="fa-solid fa-arrow-right-long"></i> Courses</a></li>
+                <li><a href="#mentor"><i class="fa-solid fa-arrow-right-long"></i> Student Mentored</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#talks"><i class="fa-solid fa-arrow-right-long"></i> Talks &amp; Activities</a>
+              <ul>
+                <li><a href="#talks"><i class="fa-solid fa-arrow-right-long"></i> Talks &amp; Presentation</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#credentials"><i class="fa-solid fa-arrow-right-long"></i> Credentials</a>
+              <ul>
+                <li><a href="#awards"><i class="fa-solid fa-arrow-right-long"></i> Awards</a></li>
+                <li><a href="#certifications"><i class="fa-solid fa-arrow-right-long"></i> Certifications</a></li>
+              </ul>
+            </li>
+            <li><a href="#misc"><i class="fa-solid fa-arrow-right-long"></i> Misc</a></li>
+        </nav>
+      </div>
+
+      <div id="introduction" class="bd-intro ps-lg-4">
+
+        <!-- <figure class="text-end">
+          <blockquote class="blockquote">
+            <p>The best way to predict the future is to create it.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            <cite title="Source Title">Alan Kay</cite>
+          </figcaption>
+        </figure> -->
+
+        <p align="justify">Welcome to my homepage! I'm Md Habibur Rahman and I have recently completed Master of Science in Computer Science
+          from <a target="_blank" class="text-decoration-none"
+          href="https://juniv.edu/department/cse">Jahangirnagar University</a> and pursued a Bachelor of Science in
+          Computer Science and Engineering from <a target="_blank" class="text-decoration-none"
+            href="https://daffodilvarsity.edu.bd/">Daffodil International University</a>. As a
+          self-motivated student, I am seeking a position in a reputable institution where I can fully realize my
+          potential and continue to learn and grow, particularly in environments dedicated to research and teaching.
+          <br />
+          I have worked on a fake news detection system using Recurrent Neural Networks (RNNs),
+           advanced NLP techniques for feature extraction, 
+          and optimization methods like hyperparameter tuning and regularization. Additionally, I have also worked on developing a secure 
+          machine learning model using tenSEAL library. My
+          research
+          supervised by <a target="_blank" class="text-decoration-none"
+          href="https://juniv.edu/teachers/makazad">Prof. Md
+          Abul Kalam Azad</a> and <a target="_blank" class="text-decoration-none"
+            href="https://www.researchgate.net/profile/Md-Ismail-Jabiullah">Prof. Md
+            Ismail
+            Jabiullah</a>. I also had the opportunity to collaborate
+          with <a target="_blank" class="text-decoration-none" href="https://taminulislam.github.io/">Md Taminul
+            Islam</a> in a project. <br />
+          Outside of my academic pursuits, you'll find me immersed in a good book, explore the unknown via travelling,
+          or
+          enjoying my leisure time with video games such as
+          <a target="_blank" class="text-decoration-none" href="https://www.fortnite.com/">Fortnite</a>,
+          <a target="_blank" class="text-decoration-none" href="https://playvalorant.com/en-gb/">Valorant</a>. Thanks
+          for visiting!
+        </p>
+
+        <details class="mb-1" id="research_interest">
+          <summary class="text-primary mb-1">Research Interests</summary>
+          <ul>
+            <li>Computer Security &amp; Privacy</li>
+            <li>Decentralized System Security</li>
+            <li>Applied Cryptography</li>
+            <li>Adversarial Machine Learning</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="bd-content ps-lg-4">
+        <!-- latest news start  -->
+        <!-- <h2 id="latest_news" class="ptsans">Latest News<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+            href="#latest_news" style="padding-left: 0.375em;"></a>
+        </h2>
+        <div style="height: 200px; overflow-y: auto;">
+          <ul>
+            <li></li>
+          </ul>
+        </div> -->
+        <!-- latest news end  -->
+
+        <!-- publications start  -->
+        <h3 id="publications" class="ptsans">Publications<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+            href="#publications" style="padding-left: 0.375em;"></a></h3>
+        <ul>
+          <li>
+            <div>
+              <p>
+                <a class="text-decoration-none" target="_blank"
+                  href="https://ieeexplore.ieee.org/document/10183601">Machine Learning Approach on Multiclass
+                  Classification of Internet Firewall Log Files</a>
+                <br>
+                <b>Md Habibur Rahman</b>, Taminul Islam, Md Masum Rana, Rehnuma Tasnim, Tanzina Rahman Mona, Md Mamun
+                Sakib
+                <br>
+                <a class="btn btn-sm btn-bd-light mb-0 mb-md-0" href="https://arxiv.org/abs/2306.07997"
+                  title="conference" target="_blank" rel="noopener">Conference
+                </a>
+                <a class="btn btn-sm btn-bd-light mb-0 mb-md-0" href="https://arxiv.org/abs/2306.07997" title="pdf"
+                  target="_blank" rel="noopener">PDF
+                </a>
+                <a class="btn btn-sm btn-bd-light mb-0 mb-md-0" href="https://arxiv.org/abs/2306.07997" title="pdf"
+                  target="_blank" rel="noopener">CODE
+                </a>
+              </p>
+            </div>
+          </li>
+        </ul>
+        <!-- publications end  -->
+
+        <!-- experiences start  -->
+        <h3 id="experiences" class="ptsans">Experiences<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+            href="#experiences" style="padding-left: 0.375em;"></a></h3>
+
+        <details class="mb-1" style="padding-left: 2em;" id="education">
+          <summary class="text-primary mb-1">Educational Background</summary>
+          <ul>
+            <!-- <li>Algorithms &amp; Algorithms Lab - <a target="_blank" class="text-decoration-none"
+                href="https://daffodilvarsity.edu.bd/">DIU</a> - Fall 2021</li> -->
+            <li>M.Sc. in Computer Science at <b>Jahangirnagar University</b>. <br> Relevant Coursework: Digital Image
+              Processing, Modern Cryptography, Digital Forensics, Network Security, Infor-
+              mation Security, Software Project Management, and Quality Assurance</li>
+            <li>B.Sc. in Computer Science &amp; Engineering at <b>Daffodil International University</b>. <br> Relevant
+              Coursework: Big Data and IoT, Research and Innovation, Data Mining and Machine Learning, Artificial
+              Intelligence, Database Management System, System Analysis and Design</li>
+          </ul>
+        </details>
+
+        <details class="mb-1" style="padding-left: 2em;" id="research">
+          <summary class="text-primary mb-1">Research Experiences</summary>
+          <ul>
+            <li><b>Graduate Research</b> - Detecting Fake News in English Newspapers Using Recurrent Neural Networks (RNNs).
+            </li>
+            <li><b>Undergraduate Research</b> - Analysis of Encrypted Machine Learning Model Using Fully Homomorphic Encryption
+              and CKKS scheme.</li>
+            <li><b>Research Assistant</b> - deep learning approach to tomato leaf disease detection using EfficientNetB3.</li>
+          </ul>
+        </details>
+
+        <details class="mb-1" style="padding-left: 2em;" id="services">
+          <summary class="text-primary mb-1">Services</summary>
+          <ul>
+            <li>Lecturer, <a target="_blank" class="text-decoration-none"
+              href="https://ist.edu.bd/">Institue of Science &amp; Technology</a></li>
+            <li>Website Developer, <a target="_blank" class="text-decoration-none"
+              href="https://supabex.com/">Supabex</a></li>
+            <li>Instructor &amp; Content Creator, <a target="_blank" class="text-decoration-none"
+              href="https://www.facebook.com/ishqool.org/">IshQool</a></li>
+            <li>Teaching Assistant, <a target="_blank" class="text-decoration-none"
+              href="https://daffodilvarsity.edu.bd/">Daffodil International University</a></li>
+          </ul>
+        </details>
+        <!-- experiences end  -->
+
+
+        <!-- teaching start  -->
+        <h3 id="teaching" class="ptsans">Teaching<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#teaching"
+            style="padding-left: 0.375em;"></a></h3>
+
+        <details class="mb-1" style="padding-left: 2em;" id="courses">
+          <summary class="text-primary mb-1">Courses</summary>
+          <ul>
+            <li><b>DIU CSE 214:</b> "Algorithms" F'21 (TA)</li>
+            <li><b>DIU CSE 215:</b> "Algorithms Lab" F'21 (TA)</li>
+            <li><b>DIU CSE 122:</b> "Programming &amp; Problem Solving" S'21 (TA)</li>
+            <li><b>DIU CSE 123:</b> "Problem Solving Lab" S'21, F'21 (TA)</li>
+          </ul>
+        </details>
+
+        <details class="mb-1" style="padding-left: 2em;" id="mentor">
+          <summary class="text-primary mb-1">Student Mentored</summary>
+          <ul>
+            <li>Loading...</li>
+          </ul>
+        </details>
+        <!-- teaching end  -->
+
+        <!-- talks start  -->
+        <h3 id="talks" class="ptsans">Talks &amp; Activities<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+            href="#talks" style="padding-left: 0.375em;"></a></h3>
+
+        <details class="mb-1" style="padding-left: 2em;" id="talks_a">
+          <summary class="text-primary mb-1">Talks &amp; Presentation</summary>
+          <ul>
+            <!-- <li>Algorithms &amp; Algorithms Lab - <a target="_blank" class="text-decoration-none"
+              href="https://daffodilvarsity.edu.bd/">DIU</a> - Fall 2021</li> -->
+            <li>Machine Learning Approach on Multiclass Classification of Internet Firewall Log Files &ndash; CISES-2023
+            </li>
+          </ul>
+        </details>
+        <!-- talks end  -->
+
+        <!-- credentials start  -->
+        <h3 id="credentials" class="ptsans">Credentials<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#"
+            href="#credentials" style="padding-left: 0.375em;"></a></h3>
+
+        <details class="mb-1" style="padding-left: 2em;" id="awards">
+          <summary class="text-primary mb-1">Awards</summary>
+          <ul>
+            <!-- <li>Algorithms &amp; Algorithms Lab - <a target="_blank" class="text-decoration-none"
+            href="https://daffodilvarsity.edu.bd/">DIU</a> - Fall 2021</li> -->
+            <li>Merit based scholarship at Daffodil International University.</li>
+          </ul>
+        </details>
+
+        <details class="mb-1" style="padding-left: 2em;" id="certifications">
+          <summary class="text-primary mb-1">Certifications (available upon request)</summary>
+          <ul>
+            <li>Training on PHP with Laravel Framework, June 2023</li>
+            <li>Training on Professional English Communication Skills (BASIS SEIP, WSDA), May 2023</li>
+            <li>Daffodil International University take off programming contest, Summer 2019 (July 26, 2019) – Position:
+              20</li>
+          </ul>
+        </details>
+        <!-- credentials end  -->
+
+        <!-- misc start  -->
+        <h3 id="misc" class="ptsans">Misc<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#misc"
+            style="padding-left: 0.375em;"></a></h3>
+        <ul>
+          <li>
+            Loading....
+          </li>
+        </ul>
+        <!-- misc end  -->
+
+
+
+      </div>
+    </main>
+  </div>
+  <!-- body ends here  -->
+
+  <!-- javascript files  -->
+  <script src="assets/js/jquery-3.7.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/all.min.js"></script>
+  <!-- main js  -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
