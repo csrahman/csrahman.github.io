@@ -6,15 +6,6 @@
     --bs-body-font-style: normal;
  }
 
-/* styles.css */
-#last-updated {
-  font-size: 0.9rem;
-  color: #555;
-  margin-top: 2rem;
-  text-align: right;
-  font-style: italic;
-}
-
  .ptsans{
     color: rgba(33,33,33,1);
     font-family: "PT Sans", sans-serif;
@@ -208,6 +199,14 @@
     line-height: 1.4;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.05)
+}
+/*last updated css*/
+#last-updated {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 2rem;
+  text-align: right;
+  font-style: italic;
 }
 
 #carbonads a {
