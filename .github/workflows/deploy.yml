@@ -20,14 +20,15 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      # Step 1: Checkout repository with PAT
+      # Step 1: Checkout repository
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_PAT }}
 
-# Step 2: Get last commit date
+      # Step 2: Get last commit date
       - name: Get last commit date
         run: |
           DATE=$(git log -1 --format=%cd --date=iso)
@@ -36,35 +37,31 @@ jobs:
       # Step 3: Replace placeholder in HTML
       - name: Replace placeholder in HTML
         run: |
+          echo "Last commit date: $LAST_UPDATED"
+
           TODAY=$(date +%s)
           LAST=$(date -d "${LAST_UPDATED}" +%s)
           DIFF_DAYS=$(( (TODAY - LAST) / 86400 ))
           TEXT="${DIFF_DAYS} day$([ "$DIFF_DAYS" -eq 1 ] || echo "s") ago"
+
+          # Replace the {{LAST_UPDATED}} placeholder in index.html
           sed -i "s|{{LAST_UPDATED}}|$TEXT|g" index.html
 
-      # Debug check
+      # Debugging (optional) - confirm replacement worked
       - name: Show updated HTML
         run: grep "Last Updated" index.html || cat index.html
 
-      # Step 4: Commit changes (optional, no push)
-      - name: Commit changes locally
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html
-          git commit -m "Update last updated date" || echo "No changes to commit"
-
-      # Step 5: Setup Pages
+      # Step 4: Setup Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Step 6: Upload artifact
+      # Step 5: Upload artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
-      # Step 7: Deploy to GitHub Pages
+      # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
