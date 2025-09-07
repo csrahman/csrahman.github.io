@@ -31,13 +31,19 @@ jobs:
       - name: Get last commit date
         id: commit_date
         run: |
-          DATE=$(git log -1 --format=%cd --date=format:'%B %d, %Y')
+          DATE=$(git log -1 --format=%cd --date=iso)
           echo "LAST_UPDATED=$DATE" >> $GITHUB_ENV
 
       # Step 3: Replace placeholder in HTML
       - name: Replace placeholder in HTML
         run: |
-          sed -i "s/{{LAST_UPDATED}}/${LAST_UPDATED}/g" index.html
+          # Convert dates to seconds since epoch
+          TODAY=$(date +%s)
+          LAST=$(date -d "$LAST_UPDATED" +%s)
+          DIFF_DAYS=$(( (TODAY - LAST) / 86400 ))
+
+          # Replace placeholder in HTML
+          sed -i "s/{{LAST_UPDATED}}/${DIFF_DAYS} day${DIFF_DAYS:+s} ago/g" index.html
 
       # Step 4: Commit changes (optional, no push)
       - name: Commit changes locally
