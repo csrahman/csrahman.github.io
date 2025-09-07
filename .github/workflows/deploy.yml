@@ -27,9 +27,8 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
 
-      # Step 2: Get last commit date
+# Step 2: Get last commit date
       - name: Get last commit date
-        id: commit_date
         run: |
           DATE=$(git log -1 --format=%cd --date=iso)
           echo "LAST_UPDATED=$DATE" >> $GITHUB_ENV
@@ -37,14 +36,10 @@ jobs:
       # Step 3: Replace placeholder in HTML
       - name: Replace placeholder in HTML
         run: |
-          # Convert dates to seconds since epoch
           TODAY=$(date +%s)
-          LAST=$(date -d "$LAST_UPDATED" +%s)
+          LAST=$(date -d "${LAST_UPDATED}" +%s)
           DIFF_DAYS=$(( (TODAY - LAST) / 86400 ))
-
           TEXT="${DIFF_DAYS} day$([ "$DIFF_DAYS" -eq 1 ] || echo "s") ago"
-
-          # Replace placeholder in HTML
           sed -i "s|{{LAST_UPDATED}}|$TEXT|g" index.html
 
       # Step 4: Commit changes (optional, no push)
