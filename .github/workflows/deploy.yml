@@ -42,6 +42,10 @@ jobs:
           TEXT="${DIFF_DAYS} day$([ "$DIFF_DAYS" -eq 1 ] || echo "s") ago"
           sed -i "s|{{LAST_UPDATED}}|$TEXT|g" index.html
 
+      # Debug check
+      - name: Show updated HTML
+        run: grep "Last Updated" index.html || cat index.html
+
       # Step 4: Commit changes (optional, no push)
       - name: Commit changes locally
         run: |
